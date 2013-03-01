@@ -10,7 +10,7 @@ iter_ctr = 1
 nums = []
 
 #n = 600851475143
-n = 638836
+n = 500
 
 nums.append(0)
 nums.append(n)
