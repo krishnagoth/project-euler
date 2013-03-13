@@ -28,11 +28,12 @@ def sieve(n):
         return r.union([2])
 
 a = []
-lim = 0
+lim = 104731
 
-while len(a) < n:
+while len(a) < n + 1:
     a = primef(lim)
     lim += 2
-    print len(a)
+    if len(a)%1000 == 0:
+        print len(a)
 
-print a.pop()
+print a
